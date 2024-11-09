@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity3</title>
+</head>
+<body>
+<h1>Your Name</h1>
+<br>
+<img src="ai.png" height="200">
+<br>
+<a href="wwww.aboutme.com">About Me</a>
+<a href="www.myprojects.com">Projects</a>
+<a href="www.contact.com">Contact</a>
+<br>
+<h2>About Me</h2>
+<br>
+<p1>I am a web devloper with a passion for creating intuitive and user-friendly websites.</p1>
+<br>
+<img src="dev.png">
+<h2>Projects</h2>
+<p1>
+project 1: Description of the project.
+<BR>
+project 2: Description of the project.</p1>
+<br>
+<h2>Contact</h2>
+<p>Feel free to reach out to me through the following channels:
+    <br>
+
+    Contact: john.doe@example.com
+    <br>
+    &copy;2024 John Doe
+</p>
+</body>
+</html>
+
+
