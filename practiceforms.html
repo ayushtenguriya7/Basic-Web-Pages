@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{text-align: center;}
+        .container{
+            
+            border: 1px solid black;
+            border-radius: 10px;
+            margin-left: 25px;
+            font-size: 25px;
+            padding: 50px;
+            width: 50%;
+        }
+        
+        button{
+           padding: 5px;display: inline;
+           margin-left: 150px;
+           border-radius: 5px;
+           background-color: pink;
+        }
+        input{
+            align-items: center;
+            display: inline;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+<div class="container">|
+    <h1>Login</h1>
+    <div class="form">
+        <form method="post" action="#">
+            <div class="username">
+                <label for="username">Name</label>
+                <input type="username" placeholder="First Name" name="username" id="texttype">
+                <input type="username" placeholder="Last Name" name="username">
+            </div>
+            <div class="pass"> 
+                <label for="password">password</label>
+                <input type="password" placeholder="Enter Your Password" name="password" id="texttype">
+            </div>
+            <div class="Gender">
+                <label for="Gender">Gender</label>
+                <input type="radio" name="Gender" id="Male">Male
+                <input type="radio" name="Gender" id="Female">Female
+            </div>
+            <div class="email">
+                <label for="email">Email</label>
+                <input type="email" placeholder="xyz@example.com" name="email">
+            </div>
+            <div class="dropdown">
+                <label for="Country">Country:</label>
+                <select name="Country" id="Country">
+                    <option value="Select your Country">Select your country</option>
+                    <option value="India">India</option>
+                    <option value="Usa">Usa</option>
+                    <option value="pakistan">Pakistan</option>
+                    <option value="China">China</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="Srilanka">Srilanka</option>
+                </select>
+                <div class="message">
+                    <label for="message">Comment</label>
+                    <textarea id="message" name="message" placeholder="Enter your Message" rows="4" cols="50"></textarea>
+                </div>
+                <div class="contact">
+                    <label for="contact">Contact</label>
+                    <input type="tel" placeholder="Enter your contact number" name="contact" id="contact">
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" required>I agree i am 18+years old
+                    </label>
+                </div>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+                
+            </div>
+        </form>
+    </div>
+</div>
+    
+</body>
+</html>
